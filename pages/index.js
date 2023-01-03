@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
 import NavDropdown from '../components/NavDropdown/NavDropdown'
 import Projects from '../components/Projects/Projects'
-import Technologies from '../components/ Technologies/ Technologies'
+import Technologies from '../components/Technologies/Technologies'
 import TimeLine from '../components/TimeLine/TimeLine'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,7 +28,6 @@ export default function Home({children}) {
         <Projects />
         <Technologies />
         <TimeLine/>
-
         <Footer />
         <main className={styles.main}>
           {children}
